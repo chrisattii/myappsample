@@ -1,0 +1,30 @@
+$ cd - : This command was used to move from my current working directory to my Home directory.
+
+mkdir command ie.this represents  make directory and it  is used to create a directory using the terminal. The following commands were used to create Exercises , python and linux directories repectively.
+
+$ mkdir Exercises
+
+$ mkdir python
+ 
+$ mkdir linux
+
+$ ls -l : This command was used to list horizontally the content of the current Home directory as well as permissions of each file and directory in it.
+This helps me verify that the 3 directories have been created successfully.
+
+Current permissons on linux directory are drwxr-xr-x meaning the group others permisions are read and execute ie. r-x and groups permissions are r-x which is read and execute permissions.
+
+
+$ chmod o-r linux : This command was used to remove read permissions from group others.
+
+$ chmod o-x linux : This command was used to remove execute permissions from group others.
+
+$ chmod g+w linux :To add write to groups permissions 
+
+$ chmod g-x linux :To remove execute from the group permissions the following command was used. 
+
+Hence the linux directory's permissions is now  drwxrw---- which means group others no longer has access; that is group others has permissions ---
+Also groups permissions is now read and write only ie. rw-
+
+$ cd linux/ :To change into linux directory 
+
+$ touch myfile_{1..23} : To create 23 empty files named in the required format. 
